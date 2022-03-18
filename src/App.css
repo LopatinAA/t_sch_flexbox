@@ -14,20 +14,16 @@ body,
 }
 
 .flex-container > div {
-width: 100px;
-height: 100px;
-border-radius: 50px;
-background-color: #DAA520;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #DAA520;
 }
 
-.ball-1, .ball-5 {
-    align-self: flex-start;
-}
-
-.ball-2, .ball-4{
+div:nth-child(2), div:nth-child(4) {
     align-self: center;
 }
 
-.ball-3 {
+div:nth-child(3) {
     align-self: flex-end;
 }
